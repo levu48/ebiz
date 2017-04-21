@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_1_0.xsd">
+
+    <persistence-unit name="ebiz" transaction-type="RESOURCE_LOCAL">
+        <class>com.kicon.ebiz.model.Shop</class>
+		<class>com.kicon.ebiz.model.Category</class>
+		<class>com.kicon.ebiz.model.CategoryElement</class>
+		<class>com.kicon.ebiz.model.User</class>
+		<class>com.kicon.ebiz.model.Account</class>
+		<class>com.kicon.ebiz.model.Item</class>
+		<class>com.kicon.ebiz.model.Tax</class>
+		<class>com.kicon.ebiz.model.Order</class>
+		<class>com.kicon.ebiz.model.OrderLine</class>
+		<class>com.kicon.ebiz.model.OrderLineTax</class>
+		<class>com.kicon.ebiz.model.Station</class>
+		<class>com.kicon.ebiz.model.Warehouse</class>
+		<class>com.kicon.ebiz.model.WarehouseItem</class>
+		<class>com.kicon.ebiz.model.WarehouseOrder</class>
+		<class>com.kicon.ebiz.model.WarehouseOrderLine</class>
+		<class>com.kicon.ebiz.model.BusinessEntity</class>
+		
+        <properties>            
+            <property name="javax.persistence.jdbc.driver" value="com.google.appengine.api.rdbms.AppEngineDriver"/>
+            <property name="javax.persistence.jdbc.url" value="jdbc:google:rdbms://lv-ecom001:ecom001/ebiz"/>
+            <property name="javax.persistence.jdbc.user" value="root"/>
+            <property name="javax.persistence.jdbc.password" value=""/>
+            
+            <property name="eclipselink.target-database" value="MySQL"/>        
+					
+			<!-- EclipseLink should create the database schema automatically -->
+			<property name="eclipselink.ddl-generation" value="drop-and-create-tables" />
+			<!-- <property name="eclipselink.ddl-generation" value="create-tables" /> -->
+			<property name="eclipselink.ddl-generation.output-mode" value="database" />
+			
+        </properties>
+    </persistence-unit>
+</persistence>

@@ -1,0 +1,2 @@
+serviceClass: com.kicon.ebiz.client.RpcService
+path: 938C45003EB36793350E598CAEEC3EDD.gwt.rpc

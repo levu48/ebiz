@@ -1,0 +1,62 @@
+
+.app-appTop {
+	height:60px;
+	background:url(gfx/top_back.png);
+	width:100%;
+	float:left;
+	border-bottom: 1px solid #7f7f7f;
+	border-top: 1px solid #7f7f7f;
+	vertical-align: top;
+}
+
+.app-loginPanel {
+	background: #EEE;
+	padding-top: 40px;
+	padding-left: 8px;
+	padding-right: 8px;
+	padding-bottom: 40px;
+}
+
+.app-topTitle {
+	font-size:24px;
+	font-family: arial;
+	color:#3f3f3f;	
+	text-shadow: 0px 1px 1px white;
+	padding-top: 8px;
+	padding-left: 8px;
+	padding-right: 8px;
+}
+
+.app-subTitle {
+	font-size:14px;
+	font-family: arial;
+	color:#3f3f3f;	
+	text-shadow: 0px 1px 1px white;
+	padding-top: 4px;
+	padding-left: 8px;
+	padding-right: 8px;
+}
+
+.app-sysMenu, .app-shop-sysMenu {
+	text-decoration:none;
+	color: #555;
+	font-size: 12px;
+	padding-top: 2px;
+	padding-left: 3px;
+	padding-right: 3px;
+	text-align: right;
+	align: right;"
+}
+
+.app-shopListPanel {
+	background: #EEE;
+	padding-top: 40px;
+	padding-left: 8px;
+	padding-right: 8px;
+	padding-bottom: 40px;
+}
+
+.kicon-form-Label {
+	font-weight: bold;
+	color: #555
+}

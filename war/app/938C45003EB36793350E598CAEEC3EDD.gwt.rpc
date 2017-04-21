@@ -1,0 +1,80 @@
+com.google.gwt.i18n.shared.impl.DateRecord, true, true, true, true, com.google.gwt.i18n.shared.impl.DateRecord/3375188634, 3375188634
+com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException, true, true, true, true, com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException/3936916533, 3936916533
+com.google.gwt.user.client.rpc.RpcTokenException, true, true, false, false, com.google.gwt.user.client.rpc.RpcTokenException/2345075298, 2345075298
+com.google.gwt.user.client.rpc.XsrfToken, false, false, true, true, com.google.gwt.user.client.rpc.XsrfToken/4254043109, 4254043109
+com.kicon.ebiz.client.RpcService, false, false, false, false, _, 4078738545
+com.kicon.ebiz.model.Account, true, true, true, true, com.kicon.ebiz.model.Account/1467976343, 1467976343
+@ClientFields,com.kicon.ebiz.model.Account,id,displayName,email,emailVerified,name,password,identifiers,roles,locked
+[Lcom.kicon.ebiz.model.Account;, true, true, false, false, [Lcom.kicon.ebiz.model.Account;/2543940852, 2543940852
+com.kicon.ebiz.model.ActiveUser, true, true, false, false, com.kicon.ebiz.model.ActiveUser/3855293279, 3855293279
+com.kicon.ebiz.model.BusinessEntity, true, true, true, true, com.kicon.ebiz.model.BusinessEntity/677736899, 677736899
+@ClientFields,com.kicon.ebiz.model.BusinessEntity,id,email,shop,relation,displayName,lastName,firstName,middleName,isLocked,criticalInfoEditable
+com.kicon.ebiz.model.BusinessEntity$Relation, true, true, true, true, com.kicon.ebiz.model.BusinessEntity$Relation/2042490218, 2042490218
+[Lcom.kicon.ebiz.model.BusinessEntity;, true, true, false, false, [Lcom.kicon.ebiz.model.BusinessEntity;/1585861185, 1585861185
+com.kicon.ebiz.model.Category, true, true, true, true, com.kicon.ebiz.model.Category/75731270, 75731270
+@ClientFields,com.kicon.ebiz.model.Category,id,name,shop,elements
+com.kicon.ebiz.model.CategoryElement, true, true, true, true, com.kicon.ebiz.model.CategoryElement/3089726792, 3089726792
+@ClientFields,com.kicon.ebiz.model.CategoryElement,id,name,category
+[Lcom.kicon.ebiz.model.CategoryElement;, true, true, true, true, [Lcom.kicon.ebiz.model.CategoryElement;/3239885857, 3239885857
+[Lcom.kicon.ebiz.model.Category;, true, true, false, false, [Lcom.kicon.ebiz.model.Category;/3275610047, 3275610047
+com.kicon.ebiz.model.Item, true, true, true, true, com.kicon.ebiz.model.Item/4067910927, 4067910927
+@ClientFields,com.kicon.ebiz.model.Item,id,name,itemNo,barcode,cost,price,discountPrice,quantityInStock,stockProduct,tax,shop,manufacturingDate,expirationDate,unitElement,contentElement,categoryElement
+[Lcom.kicon.ebiz.model.Item;, true, true, false, false, [Lcom.kicon.ebiz.model.Item;/3840306117, 3840306117
+com.kicon.ebiz.model.LoginInfo, true, true, true, true, com.kicon.ebiz.model.LoginInfo/927962815, 927962815
+com.kicon.ebiz.model.Order, true, true, true, true, com.kicon.ebiz.model.Order/4269930051, 4269930051
+@ClientFields,com.kicon.ebiz.model.Order,id,currency,dateCreated,dateChanged,dateInvoiced,dateTimelyPayment,status,shop,orderlines,customerRef,number,invoiceNumber,informalName,taxRate
+com.kicon.ebiz.model.OrderLine, true, true, true, true, com.kicon.ebiz.model.OrderLine/2680651765, 2680651765
+@ClientFields,com.kicon.ebiz.model.OrderLine,id,title,itemId,itemNo,quantity,cost,price,tax,discountPercentage
+com.kicon.ebiz.model.OrderLineTax, true, true, true, true, com.kicon.ebiz.model.OrderLineTax/2866846932, 2866846932
+@ClientFields,com.kicon.ebiz.model.OrderLineTax,id,referenceId,name,rate
+[Lcom.kicon.ebiz.model.OrderLine;, true, true, true, true, [Lcom.kicon.ebiz.model.OrderLine;/2353183718, 2353183718
+com.kicon.ebiz.model.OrderStatus, true, true, true, true, com.kicon.ebiz.model.OrderStatus/23005054, 23005054
+[Lcom.kicon.ebiz.model.Order;, true, true, false, false, [Lcom.kicon.ebiz.model.Order;/4269175559, 4269175559
+com.kicon.ebiz.model.Shop, true, true, true, true, com.kicon.ebiz.model.Shop/3038565677, 3038565677
+@ClientFields,com.kicon.ebiz.model.Shop,id,name,streetNo,road,zipCode,city,phoneNo,faxNo,email,countryCode,language,currency,cvr,bankAccount,web,logoUrl,backendUrl,receiptNote,serviceLevelExpireDate,users,createdBy,initialOrderNumber,initialInvoiceNumber,paymentPeriodInDays,taxRate,categories,warehouses
+[Lcom.kicon.ebiz.model.Shop;, true, true, false, false, [Lcom.kicon.ebiz.model.Shop;/802930795, 802930795
+com.kicon.ebiz.model.Station, true, true, true, true, com.kicon.ebiz.model.Station/83474175, 83474175
+@ClientFields,com.kicon.ebiz.model.Station,id,name,shop,categoryElement
+[Lcom.kicon.ebiz.model.Station;, true, true, false, false, [Lcom.kicon.ebiz.model.Station;/1025739771, 1025739771
+com.kicon.ebiz.model.Tax, true, true, true, true, com.kicon.ebiz.model.Tax/836431432, 836431432
+@ClientFields,com.kicon.ebiz.model.Tax,id,name,rate,defaultEnabled
+com.kicon.ebiz.model.TaxComparator, true, true, true, true, com.kicon.ebiz.model.TaxComparator/1229113925, 1229113925
+com.kicon.ebiz.model.User, true, true, true, true, com.kicon.ebiz.model.User/1223574138, 1223574138
+@ClientFields,com.kicon.ebiz.model.User,id,email,shop,role,displayName,lastName,firstName,middleName,isLocked,criticalInfoEditable
+com.kicon.ebiz.model.User$Role, true, true, true, true, com.kicon.ebiz.model.User$Role/2141421032, 2141421032
+[Lcom.kicon.ebiz.model.User;, true, true, false, false, [Lcom.kicon.ebiz.model.User;/1895168034, 1895168034
+com.kicon.ebiz.model.Warehouse, true, true, true, true, com.kicon.ebiz.model.Warehouse/989050560, 989050560
+@ClientFields,com.kicon.ebiz.model.Warehouse,id,name,shop,warehouseItems
+com.kicon.ebiz.model.WarehouseItem, true, true, true, true, com.kicon.ebiz.model.WarehouseItem/4077891993, 4077891993
+@ClientFields,com.kicon.ebiz.model.WarehouseItem,id,warehouse,item,quantity
+[Lcom.kicon.ebiz.model.WarehouseItem;, true, true, true, true, [Lcom.kicon.ebiz.model.WarehouseItem;/4072606257, 4072606257
+com.kicon.ebiz.model.WarehouseOrder, true, true, true, true, com.kicon.ebiz.model.WarehouseOrder/1602054203, 1602054203
+@ClientFields,com.kicon.ebiz.model.WarehouseOrder,id,orderType,warehouse,warehouseOrderLines,categoryElement,customerRef,businessEntity,businessName,transactionRecord,currency,dateCreated,dateChanged,dateInvoiced,dateTimelyPayment,status,number,invoiceNumber,informalName,taxRate
+com.kicon.ebiz.model.WarehouseOrder$OrderType, true, true, true, true, com.kicon.ebiz.model.WarehouseOrder$OrderType/543991235, 543991235
+com.kicon.ebiz.model.WarehouseOrderLine, true, true, true, true, com.kicon.ebiz.model.WarehouseOrderLine/251590927, 251590927
+@ClientFields,com.kicon.ebiz.model.WarehouseOrderLine,id,title,item,itemNo,quantity,cost,price,tax,discountPercentage
+[Lcom.kicon.ebiz.model.WarehouseOrderLine;, true, true, true, true, [Lcom.kicon.ebiz.model.WarehouseOrderLine;/3607551238, 3607551238
+[Lcom.kicon.ebiz.model.WarehouseOrder;, true, true, false, false, [Lcom.kicon.ebiz.model.WarehouseOrder;/842930395, 842930395
+[Lcom.kicon.ebiz.model.Warehouse;, true, true, true, true, [Lcom.kicon.ebiz.model.Warehouse;/2358376771, 2358376771
+java.lang.Boolean, true, true, true, true, java.lang.Boolean/476441737, 476441737
+java.lang.Exception, true, false, true, false, java.lang.Exception/1920171873, 1920171873
+java.lang.RuntimeException, true, false, true, false, java.lang.RuntimeException/515124647, 515124647
+java.lang.String, true, true, true, true, java.lang.String/2004016611, 2004016611
+[Ljava.lang.String;, true, true, true, true, [Ljava.lang.String;/2600011424, 2600011424
+java.lang.Throwable, true, false, true, false, java.lang.Throwable/2953622131, 2953622131
+java.sql.Date, true, true, true, true, java.sql.Date/730999118, 730999118
+java.sql.Time, true, true, true, true, java.sql.Time/1816797103, 1816797103
+java.sql.Timestamp, true, true, true, true, java.sql.Timestamp/3040052672, 3040052672
+java.util.ArrayList, true, true, true, true, java.util.ArrayList/4159755760, 4159755760
+java.util.Arrays$ArrayList, true, true, true, true, java.util.Arrays$ArrayList/2507071751, 2507071751
+java.util.Collections$EmptyList, true, true, true, true, java.util.Collections$EmptyList/4157118744, 4157118744
+java.util.Collections$EmptySet, true, true, true, true, java.util.Collections$EmptySet/3523698179, 3523698179
+java.util.Collections$SingletonList, true, true, true, true, java.util.Collections$SingletonList/1586180994, 1586180994
+java.util.Date, true, true, true, true, java.util.Date/3385151746, 3385151746
+java.util.HashSet, true, true, true, true, java.util.HashSet/3273092938, 3273092938
+java.util.LinkedHashSet, true, true, true, true, java.util.LinkedHashSet/1826081506, 1826081506
+java.util.LinkedList, true, true, true, true, java.util.LinkedList/3953877921, 3953877921
+java.util.Stack, true, true, true, true, java.util.Stack/1346942793, 1346942793
+java.util.TreeMap, true, true, true, true, java.util.TreeMap/1493889780, 1493889780
+java.util.TreeSet, true, true, true, true, java.util.TreeSet/4043497002, 4043497002
+java.util.Vector, true, true, true, true, java.util.Vector/3057315478, 3057315478
